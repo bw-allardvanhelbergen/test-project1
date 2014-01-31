@@ -1,4 +1,4 @@
 test-project1
 =============
 
-This is project1 using the submodule.
+This is project 1 using the submodule, say Analytics.
