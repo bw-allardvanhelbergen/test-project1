@@ -1,8 +1,12 @@
 // Import all the stuffs
 
-@import '/submodules/global-variables.less';
-@import '/less/local-variables.less';
+@local-dir: '/less/';
+@submodule-dir: '/submodules/less/';
 
-@import '/submodules/button.less';
+@import '@{submodule-dir}mixins.less';
+@import '@{submodule-dir}global-variables.less';
+@import '@{local-dir}local-variables.less';
 
-@import '/less/other-component.less';
+@import '@{submodule-dir}button.less';
+
+@import '@{local-dir}button--local.less';
